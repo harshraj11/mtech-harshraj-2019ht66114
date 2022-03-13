@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+     <servlet-name>abc</servlet-name>
+     <servlet-class>com.learn.CalculateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abc</servlet-name>
+     <url-pattern>/calculate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>abcd</servlet-name>
+     <servlet-class>com.learn.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcd</servlet-name>
+     <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>abcde</servlet-name>
+     <servlet-class>com.learn.SquareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcde</servlet-name>
+     <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+     <servlet-name>abcdef</servlet-name>
+     <servlet-class>com.learn.SubServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcdef</servlet-name>
+     <url-pattern>/sub</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+     <servlet-name>abcdefg</servlet-name>
+     <servlet-class>com.learn.CubeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcdefg</servlet-name>
+     <url-pattern>/cube</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>abcdefgh</servlet-name>
+     <servlet-class>com.learn.ShapeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcdefgh</servlet-name>
+     <url-pattern>/shape</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+     <servlet-name>abcdefghi</servlet-name>
+     <servlet-class>com.learn.QuadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcdefghi</servlet-name>
+     <url-pattern>/quad</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>abcdefghij</servlet-name>
+     <servlet-class>com.learn.Cookie1Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcdefghij</servlet-name>
+     <url-pattern>/cookie1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>abcdefghijk</servlet-name>
+     <servlet-class>com.learn.Cookie2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>abcdefghijk</servlet-name>
+     <url-pattern>/cookie2</url-pattern>
+  </servlet-mapping>
+</web-app>

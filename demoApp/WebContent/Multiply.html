@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+     <H1>example of calling a servlet from a servlet</H1>
+    <form action="add" method="get">
+      <h2>using RequestDispatcher in AddServlet</h2>
+       Enter 1st Number : <input type="text" name="num1"><br>
+       Enter 2nd Number : <input type="text" name="num2"><br>
+       <input type="submit">
+    </form>
+    
+    <form action="sub" method="get">
+       <H2>using sendRedirect in SubServlet</H2>
+       Enter 1st Number : <input type="text" name="num1"><br>
+       Enter 2nd Number : <input type="text" name="num2"><br>
+       <input type="submit">
+    </form>
+    
+    
+    <form action="shape" method="get">
+       <H2>using sendRedirect in ShapeServlet for showing data transfer using Session. Output should be in cube</H2>
+       Enter 1st Number : <input type="text" name="num1"><br>
+       Enter 2nd Number : <input type="text" name="num2"><br>
+       <input type="submit">
+    </form>
+    
+    <form action="cookie1" method="get">
+       <H2>using sendRedirect in ShapeServlet for showing data transfer using Cookie</H2><br>
+       Enter 1st Number : <input type="text" name="num1"><br>
+       Enter 2nd Number : <input type="text" name="num2"><br>
+       <input type="submit">
+    </form>
+</body>
+</html>
