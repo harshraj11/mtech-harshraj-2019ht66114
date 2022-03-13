@@ -1,1 +1,1 @@
-docker run -p 8888:8080 --name mtechtomcat -e TOMCAT_PASSWORD=password demoapp:1.0
+curl -X POST http://YOUR_JENKINS_URL/job/YOUR_JOB/build?TOKEN=118390f1bcc617377831af3585f200b38e
