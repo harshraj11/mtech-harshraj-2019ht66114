@@ -1,1 +1,1 @@
-curl -I http://harshraj:harshraj@localhost:9090/job/MTech-Project-HarshRaj/job/dockerRun/build?token=abcd-12345 --output output.txt
+curl -I http://harshraj:harshraj@localhost:9090/job/MTech-Project-HarshRaj/job/dockerRun/build?token=abcd-12345

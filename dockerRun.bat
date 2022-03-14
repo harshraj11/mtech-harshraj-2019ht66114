@@ -1,1 +1,1 @@
-docker run -p 8888:8080 --name mtechtomcat -e TOMCAT_PASSWORD=password demoapp:1.0
+docker run -p 8888:8080 --name mtechtomcat -e TOMCAT_PASSWORD=password demoapp:1.0  --output output.txt
