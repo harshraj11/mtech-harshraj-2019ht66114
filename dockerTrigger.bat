@@ -1,1 +1,1 @@
-curl -X POST http://YOUR_JENKINS_URL/job/YOUR_JOB/build?TOKEN=118390f1bcc617377831af3585f200b38e
+curl -X POST http://localhost:9090/job/MTech-Project-HarshRaj/job/dockerRun/build?TOKEN=118390f1bcc617377831af3585f200b38e
