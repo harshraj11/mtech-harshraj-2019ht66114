@@ -1,2 +1,2 @@
-FROM bitnami/tomcat:9.0
+FROM bitnami/tomcat:latest
 COPY demoApp.war /opt/bitnami/tomcat/webapps
